@@ -1,0 +1,108 @@
+.container {
+    text-align: center;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+#s1 {
+    margin: 0 10px;
+    color: #ccc;
+}
+
+#lead {
+    height: 25px;
+    background-color: #E2E3E4FF;
+    text-align: right;
+}
+#lead a {
+    margin-right: 20px;
+}
+.edit {
+    display: none;
+}
+
+.edit input {
+    width: 50px;
+
+}
+
+
+#p0 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+#p0 a {
+    color: #666;
+    text-decoration: none;
+}
+
+.search {
+    margin: 30px auto;
+}
+
+.right {
+    float: right;
+}
+.search input:first-child {
+    width: 400px;
+    height: 30px;
+}
+
+.search button {
+    width: 60px;
+    height: 30px;
+}
+
+.bookList {
+    margin: auto;
+    text-align: left;
+    height: 600px;
+}
+
+td {
+    font-size: 16px;
+}
+
+
+.bookItem > img {
+    height: 70%;
+    width: 90%;
+    margin-top: 5px;
+}
+
+.bookItem > .title {
+    margin-top: 10px;
+    font-family: 宋体, ui-monospace;
+}
+
+.bookItem > .author {
+    margin-top: 5px;
+    font-family: 宋体, ui-monospace;
+    color: #a9a9a9;
+}
+
+.bookItem .discount {
+    font-family: Arial, ui-monospace;
+    color: red;
+}
+
+.bookItem .original {
+    font-family: Arial, ui-monospace;
+    color: #a9a9a9;
+    text-decoration-line: line-through;
+}
+
+.footer {
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
