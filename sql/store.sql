@@ -73,6 +73,6 @@ CREATE TABLE `user`  (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES (1, 'admin', '19202030123', 'admin');
+INSERT INTO `user` VALUES (1, 'admin', 'admin', 'admin');
 
 SET FOREIGN_KEY_CHECKS = 1;
